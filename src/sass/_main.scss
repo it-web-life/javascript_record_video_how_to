@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+}
+@media screen and (max-width:767px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.screen {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.video {
+  max-width: 100%;
+}
+
+.video-player {
+  max-width: 100%;
+}
