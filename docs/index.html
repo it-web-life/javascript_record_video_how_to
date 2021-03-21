@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+  <header class="header">
+    <h1 class="heading">sample: ブラウザのカメラで録画する機能の実装</h1>
+  </header>
+
+  <div class="container">
+    <div class="screen">
+      <h2>カメラの映像</h2>
+      <video
+        class="js-video-record"
+        data-video-player=".js-video-player"
+        data-record-start=".js-record-start"
+        data-record-stop=".js-record-stop"
+        data-play-start=".js-play-start"
+        data-download=".js-download"
+      ></video>
+      <div>
+        <button class="js-record-start">録画開始</button>
+        <button class="js-record-stop">録画停止</button>
+        <button class="js-play-start">動画の再生</button>
+        <button class="js-download">動画のダウンロード</button>
+      </div>
+    </div>
+    
+    <div class="screen">
+      <h2>録画した動画の再生</h2>
+      <video class="js-video-player"></video>
+    </div>
+  </div>
+
+  <!-- bandle.jsがここに自動的に差し込まれます -->
+<script src="bandle.js"></script></body>
+</html>
